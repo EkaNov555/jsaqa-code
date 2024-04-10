@@ -1,15 +1,22 @@
 {
-  "name": "jsaqa_3_2",
+  "name": "jsaqa_3",
   "version": "1.0.0",
-  "description": "",
+  
+  "description": "jest test",
   "main": "index.js",
   "scripts": {
-    "test": "playwright"
+    "coverageReport": "jest --collectCoverage",
+    "testweb": "playwright"
   },
-  "author": "",
+  "keywords": [
+    "jest",
+    "test",
+    "jsaqa"
+  ],
+  "author": "Ekaterina Novikova Gaurung505@gmail.com",
   "license": "ISC",
   "devDependencies": {
-    "@playwright/test": "^1.12.3",
-    "playwright": "^1.12.3"
+    "@playwright/test": "^1.43.0",
+    "playwright": "^1.43.0"
   }
 }
