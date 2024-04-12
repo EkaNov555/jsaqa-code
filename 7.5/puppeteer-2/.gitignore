@@ -1,0 +1,5 @@
+node_modules/
+jest.setup.js
+package-lock.json
+.vscode/
+coverage/
